@@ -1,5 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 75px;  
+    background:rgba(235, 233, 155, 0.418);
+}
+
+
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 300px;
+    height: 460px;
+    justify-content: center;
+ /*    border: 2px solid black; */
+    border-radius: 10px;
+    background-color: rgba(192, 138, 91, 0.747);
+}
+
+img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.title {
+    width: 100%;
+    margin-top: 0;
+    padding: 0 auto;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph {
+    width: 90%;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
