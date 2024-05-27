@@ -3,19 +3,16 @@
 }
 
 body {
+    min-height: 100vh;
     display: flex;
+    justify-content: center;  
     align-items: center;
-    justify-content: center; 
-    margin-top: 75px;  
     background:rgba(235, 233, 155, 0.418);
 }
 
 
 
 .center {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     width: 290px;
     max-width: 300px;
     height: 470px;
